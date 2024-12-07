@@ -1,0 +1,24 @@
+/* Navbar.css */
+body {
+  @apply bg-gray-100;
+}
+
+.navbar {
+  @apply bg-blue-600 p-4 text-white;
+}
+
+.navbar .container {
+  @apply flex justify-between items-center;
+}
+
+.navbar h1 {
+  @apply text-2xl font-bold;
+}
+
+.navbar ul {
+  @apply flex space-x-4;
+}
+
+.navbar li a {
+  @apply hover:text-gray-300 transition duration-300;
+}

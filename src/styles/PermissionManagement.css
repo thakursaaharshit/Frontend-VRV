@@ -1,0 +1,24 @@
+/* PermissionManagement.css */
+body {
+  @apply bg-gray-100;
+}
+
+.container {
+  @apply p-6;
+}
+
+.permission-list {
+  @apply list-none p-0 m-0;
+}
+
+.permission-item {
+  @apply p-4 mb-4 bg-white rounded-lg shadow-md;
+}
+
+.permission-item h2 {
+  @apply text-xl font-bold mb-2;
+}
+
+.permission-item p {
+  @apply text-gray-700;
+}
